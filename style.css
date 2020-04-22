@@ -17,51 +17,77 @@ body
 /* flexbox */
 
 
-.flex-container1 {
+.flex-container1 
+{
 	display: flex;
 	flex-direction: row;
-	justify-content: stretch;
-	align-items: stretch;
-	
+	align-items: flex-start;
+	justify-self: start;
 }
-.flex-container2 {
+.flex-container2 
+{
 	display: flex;
 	flex-direction: row;
-	justify-content: stretch;
-	align-items: stretch;
+	align-items: flex-start;
+	justify-self: start;
 }
-.flex-container3 {
+.flex-container3 
+{
 	display: flex;
 	flex-direction: row;
-	justify-content: stretch;
-	align-items: stretch;
+	align-items: flex-start;
+	justify-self: start;
 }
-.flex-container4 {
+.flex-container4 
+{
 	display: flex;
 	flex-direction: row;
-	justify-content: stretch;
-	align-items: stretch;
+	align-items: flex-start;
+	justify-self: start;
 }
 
 
 /* Sections */
 
 
-#identite{
+#identite
+{
 	width: 779px;
 	height: 200px;
 }
-#prenom{
-	color: #F7CA00;
-	text-transform: uppercase;
-	font-size: 3em;
+		#prenom
+		{
+			color: #F7CA00;
+			text-transform: uppercase;
+			font-size: 3em;
+		}
+		#nom
+		{
+			text-transform: uppercase;
+			font-size: 3em;
+			color: black;
+		}
+		ul
+		{
+			list-style: none;
+		}
+#formation
+{
+	width: 779px;
+	height: 200px;
 }
-#nom{
-	text-transform: uppercase;
-	font-size: 3em;
-	color: black;
+#skill
+{
+	width: 779px;
+	height: 200px;
 }
-#photo{
+#experience
+{
+	width: 779px;
+	height: 200px;
+}
+#photo
+{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -69,40 +95,48 @@ body
 	width: 321px;
 	height: 200px;
 }
-#photo img{
-	width: 150px;
-}
+		#photo img
+		{
+			width: 150px;
+		}
 h2
 {
 	font-size: 1.5em
 }
-ul{
-	list-style: none;
-}
+
 
 /*colonne */
 
-#contact{
+#contact
+{
 	background-color: #F7CA00;
 	width: 321px;
+	height: 200px;
 }
-#contact h3{
+#contact h3
+{
 	background-color: #695D83;
 	color: white
 }
-#apropos{
+#apropos
+{
 	background-color: #F7CA00;
 	width: 321px;
+	height: 300px;
 }
-#apropos h3{
+#apropos h3
+{
 	background-color: #695D83;
 	color: white
 }
-#loisirs{
+#loisirs
+{
 	background-color: #F7CA00;
 	width: 321px;
+	height: 150px;
 }
-#loisirs h3{
+#loisirs h3
+{
 	background-color: #695D83;
 	color: white
 }
