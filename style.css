@@ -1,0 +1,97 @@
+/* Général */
+
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #695D83;
+}
+#bloc_page
+{
+    width: 1100px;
+    margin: auto;
+}
+
+/* Header */
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	flex-direction: row-reverse;
+}
+.flex-container1 {
+	display: flex;
+	align-items: stretch;
+}
+#identite{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 779px;
+	height: 200px;
+}
+#prenom{
+	color: #F7CA00;
+	text-transform: uppercase;
+	font-size: 3em;
+	list-style: none;
+}
+#nom{
+	text-transform: uppercase;
+	font-size: 3em;
+	color: black;
+}
+#photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #F7CA00;
+	width: 321px;
+	height: 200px;
+}
+#photo img{
+	width: 150px;
+}
+h2
+{
+	font-size: 1.5em
+}
+ul{
+	list-style: none;
+}
+/*colonne */
+
+#contact{
+	background-color: #F7CA00;
+	width: 321px;
+}
+
+#apropos{
+	background-color: #F7CA00;
+	width: 321px;
+}
+#apropos h3{
+	background-color: #695D83;
+	color: white
+}
+#loisirs{
+	background-color: #F7CA00;
+	width: 321px;
+}
+/* section*/
+
+h3
+{
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+.metier
+{
+	font-weight: bold;
+}
+ul
+{
+	width: 600px;
+	font-family: arial;
+} 
