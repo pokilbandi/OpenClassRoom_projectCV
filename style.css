@@ -10,13 +10,20 @@ body
 #bloc_page
 {
 	width: 1100px;
-	height: 900px;
+	height: 1300px;
 	margin: auto;
 	border-style: solid;
 	border-color: black;
 }
-
-
+p
+{
+	text-align: start;
+}
+table
+{
+	border: 2px;
+	border-color: #695D83;
+}
 /* flexbox */
 
 
@@ -69,12 +76,21 @@ body
 		{
 			list-style: none;
 		}
-#formation
-{
-	padding-left: 50px;
-	width: 779px;
-	height: 200px;
-
+td,
+th {
+	border: 1px solid rgb(190, 190, 190);
+	}
+		
+td {
+			text-align: center;
+}
+		
+table {
+	border: 2px solid rgb(200, 200, 200);
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	font-size: .8rem;
+	width: 750px;
 }
 #skill
 {
@@ -113,7 +129,7 @@ h2
 {
 	background-color: #F7CA00;
 	width: 321px;
-	height: 200px;
+	height: 250px;
 }
 #contact h3
 {
@@ -128,7 +144,7 @@ h2
 {
 	background-color: #F7CA00;
 	width: 321px;
-	height: 300px;
+	height: 350px;
 }
 #apropos h3
 {
@@ -143,7 +159,7 @@ h2
 {
 	background-color: #F7CA00;
 	width: 321px;
-	height: max-content;
+	height: 150px;
 }
 #loisirs h3
 {
