@@ -1,3 +1,5 @@
+
+
 /* Général */
 
 body
@@ -7,42 +9,87 @@ body
 }
 #bloc_page
 {
-    width: 1100px;
-    margin: auto;
+	width: 1100px;
+	height: 900px;
+	margin: auto;
+	border-style: solid;
+	border-color: black;
 }
 
-/* Header */
 
-header{
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-	flex-direction: row-reverse;
-}
-.flex-container1 {
-	display: flex;
-	align-items: stretch;
-}
-#identite{
+/* flexbox */
+
+
+.flex-container1 
+{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	align-items: center;
+}
+.flex-container2 
+{
+	display: flex;
+	flex-direction: row;
+}
+.flex-container3 
+{
+	display: flex;
+	flex-direction: row;
+}
+.flex-container4 
+{
+	display: flex;
+	flex-direction: row;
+}
+
+
+/* Sections */
+
+
+#identite
+{
+	display: flex;
 	align-items: center;
 	width: 779px;
 	height: 200px;
 }
-#prenom{
-	color: #F7CA00;
-	text-transform: uppercase;
-	font-size: 3em;
-	list-style: none;
+		#prenom
+		{
+			color: #F7CA00;
+			text-transform: uppercase;
+			font-size: 3em;
+		}
+		#nom
+		{
+			text-transform: uppercase;
+			font-size: 3em;
+			color: black;
+		}
+		ul
+		{
+			list-style: none;
+		}
+#formation
+{
+	padding-left: 50px;
+	width: 779px;
+	height: 200px;
+
 }
-#nom{
-	text-transform: uppercase;
-	font-size: 3em;
-	color: black;
+#skill
+{
+	padding-left: 50px;
+	width: 779px;
+	height: 200px;
 }
-#photo{
+#experience
+{
+	padding-left: 50px;
+	width: 779px;
+	height: 300px;
+}
+#photo
+{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -50,35 +97,64 @@ header{
 	width: 321px;
 	height: 200px;
 }
-#photo img{
-	width: 150px;
-}
+		#photo img
+		{
+			width: 180px;
+		}
 h2
 {
 	font-size: 1.5em
 }
-ul{
-	list-style: none;
-}
+
+
 /*colonne */
 
-#contact{
+#contact
+{
 	background-color: #F7CA00;
 	width: 321px;
+	height: 200px;
+}
+#contact h3
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #695D83;
+	color: white;
+	height: 40px;
+}
+#apropos
+{
+	background-color: #F7CA00;
+	width: 321px;
+	height: 300px;
+}
+#apropos h3
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #695D83;
+	color: white;
+	height: 40px;
+}
+#loisirs
+{
+	background-color: #F7CA00;
+	width: 321px;
+	height: max-content;
+}
+#loisirs h3
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #695D83;
+	color: white;
+	height: 40px;
 }
 
-#apropos{
-	background-color: #F7CA00;
-	width: 321px;
-}
-#apropos h3{
-	background-color: #695D83;
-	color: white
-}
-#loisirs{
-	background-color: #F7CA00;
-	width: 321px;
-}
 /* section*/
 
 h3
@@ -90,8 +166,3 @@ h3
 {
 	font-weight: bold;
 }
-ul
-{
-	width: 600px;
-	font-family: arial;
-} 

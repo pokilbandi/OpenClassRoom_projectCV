@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<script src="https://kit.fontawesome.com/63f66c93ed.js" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="style.css" />
 		<title>Matthieu Cognée</title>
 	</head>
@@ -10,7 +10,7 @@
 	<body>
 		<div id="bloc_page">
 			<header>
-				<div class="flex-container1">
+				<div class="flex-container1">				<!-- photo et identite -->
 					<div style="flex-grow: 4">
 						<div id="photo">
 							<img src="matthieu photo ronde.svg" alt="photo" />
@@ -25,52 +25,71 @@
 					</div>
 				</div>
 			</header>
-			
-			<section id="contact">
-				<div class="col-md-4 col-sm-12 col-lg-6">
-				<h3>contact</h3>
-					<p>mon adresse et telephone peu etre un tableau avec les infomartion a li'intérieur pour une interface responsive plus jolie</p>
+			<div class="flex-container2">				<!-- contact et compétences -->
+				<div style="flex-grow: 4">
+					<section id="contact">
+						<h3>contact</h3>
+							<p>mon adresse et telephone peu etre un tableau avec les infomartion a li'intérieur pour une interface responsive plus jolie</p>
+					</section>
 				</div>
-			</section>
-			
-			<section id="apropos">
-				<h3>à propos de moi</h3>
-					<p>du blabla qui parle de moi</p>
-			</section>
-			
-			<section id="experience">
-				<h3>Mon Expérience</h3>
-   					 <ul><li><span class="metier">Directeur de salle</span> - MSM 1888, Mont-Saint-Michel</li>
-    					<li><span class="metier">Manager Séminaires</span> - Millbrook Resort Country Club, Queenstown, Nouvelle Zélande</li>
-    					<li><span class="metier">Chef de Rang</span> - MSM 1888, Mont-Saint-Michel</li>
-    					<li><span class="metier">Chef de Rang</span> - Odalys, Tignes</li>
-    					<li><span class="metier">Chef de Rang</span> - La Tête Noir, Fougères</li>
-    					<li><span class="metier">Barman</span> - Nautilus, Port Douglas , Australie</li>
-    					<li><span class="metier">Responsable bar</span> - MSM 1888, Mont-Saint-Michel</li></ul>
-
-			</section>
-		
-			<section id="skill">
-				<h3>Mes Compétences</h3>
-   					<ul><li>Organisation et gestion quotidienne des équipes</li>
-    					<li>Organisation et planifications d'événements, séminaires</li>
-    					<li>Serveur en salle , prise de commande, accueil clients</li>
-    					<li>Organisation du Plan de salle, accueil, bar</li>
-    					<li>Barman , accueil, gestion des stocks</li>
-    					<li>Elaboration de cocktails, gestion de stock.</li></ul>
-			</section>
-		
-			<section id="formation">
-				<h3>Ma Formation</h3>
-					<p> Bachelor marketing, comptabilité - EGCB, St Malo<p>
-			</section>
-
-			<footer>
-				<section id="loisirs">
-					<h3>loisirs</h3>
-					<p>petites icones de mes loisirs</p>
-				</section>
-			</footer>
+				<div style="flex-grow: 8">
+					<section id="skill">
+						<h3>Mes Compétences</h3>
+							   <ul><li>Organisation et gestion quotidienne des équipes</li>
+								<li>Organisation et planifications d'événements, séminaires</li>
+								<li>Serveur en salle , prise de commande, accueil clients</li>
+								<li>Organisation du Plan de salle, accueil, bar</li>
+								<li>Barman , accueil, gestion des stocks</li>
+								<li>Elaboration de cocktails, gestion de stock.</li></ul>
+					</section>
+				</div>
+			</div>
+			<div class="flex-container3">				<!-- A propos et experience -->
+				<div style="flex-grow: 4">
+					<section id="apropos">
+						<h3>à propos de moi</h3>
+							<p>du blabla qui parle de moi</p>
+					</section>
+				</div>
+				<div style="flex-grow: 8">
+					<section id="experience">
+						<span style="font-size: 30px; color: #F7CA00;"><i class="fas fa-briefcase"></i></span><h3>Mon Expérience</h3>
+							<ul><li><span class="metier">Directeur de salle</span> - MSM 1888, Mont-Saint-Michel</li>
+								<li><span class="metier">Manager Séminaires</span> - Millbrook Resort Country Club, Queenstown, Nouvelle Zélande</li>
+								<li><span class="metier">Chef de Rang</span> - MSM 1888, Mont-Saint-Michel</li>
+								<li><span class="metier">Chef de Rang</span> - Odalys, Tignes</li>
+								<li><span class="metier">Chef de Rang</span> - La Tête Noir, Fougères</li>
+								<li><span class="metier">Barman</span> - Nautilus, Port Douglas , Australie</li>
+								<li><span class="metier">Responsable bar</span> - MSM 1888, Mont-Saint-Michel</li></ul>
+					</section>
+				</div>
+			</div>
+			<div class="flex-container4">				<!-- loisirs et formation -->
+				<div style="flex-grow: 4">
+					<footer id="loisirs">
+							<h3>loisirs</h3>
+							<p>petites icones de mes loisirs</p>
+					</footer>
+				</div>
+				<div style="flex-grow: 8">
+					<section id="formation">
+						<table>
+							<thead>
+								<tr>
+									<th><span style="font-size: 30px; color: #F7CA00;"><i class="fas fa-graduation-cap"></i></span></th>
+									<th><h3>Ma Formation</h3></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Bachelor marketing, comptabilité</td>
+									<td>EGCB, St Malo</td>
+								</tr>
+							</tbody>
+						</table>	
+					</section>
+				</div>
+			</div>
 		</div>
 	</body>
 </html>
