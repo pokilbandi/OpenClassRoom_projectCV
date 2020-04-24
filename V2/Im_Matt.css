@@ -1,5 +1,5 @@
 
-/* éléments principaux */
+/*! éléments principaux */
 
 
 body
@@ -58,17 +58,10 @@ h2
 {
     font-size: 1.5em;
 }
-i.fas
-{
-    font-size: 30px; 
-    color: #F7CA00; 
-    float: left;
-    margin-right: 30px;
-    margin-top: 20px;
-}
 
 
-/* bloc identite */
+/*! bloc identite */
+
 
 #identite    
 {
@@ -89,7 +82,9 @@ font-size: 3em;
 color: black;			
 }
 
-/* bloc photo */
+
+/*! bloc photo */
+
 
 #photo
 {
@@ -103,9 +98,126 @@ color: black;
     width: 160px;
 }
 
-/* bloc formation */
-/* bloc contact */
-/* bloc experiences */
-/* bloc apropos */
-/* bloc competences */
-/* bloc loisirs */
+
+/*! bloc formation */
+
+
+.fa-graduation-cap
+{
+    font-size: 30px; 
+    color: #F7CA00; 
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.sec-gauche
+{
+    float: left;
+}
+
+.sec-droite
+{
+    float: right;
+}
+
+.lieu
+{
+    ;
+}
+/* ! bloc contact */
+
+
+.fa-twitter-square          /* TODO ajouter url sur icones */
+{
+    font-size: 50px;
+    color: #424242;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.fa-linkedin
+{
+    font-size: 50px;
+    color: #424242;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.fa-facebook-square
+{
+    font-size: 50px;
+    color: #424242;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+#contact p
+{
+    margin-left: 40px;
+}
+
+
+/*! bloc experiences */
+
+
+.fa-briefcase
+{
+    font-size: 30px; 
+    color: #F7CA00; 
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+
+/*! bloc apropos */
+
+
+/*! bloc competences */
+
+
+.fa-pencil-alt
+{
+    font-size: 30px; 
+    color: #F7CA00; 
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+
+/*! bloc loisirs */
+
+
+.fa-plane-departure
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fa-laptop-house
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fa-xbox
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fa-seedling
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
