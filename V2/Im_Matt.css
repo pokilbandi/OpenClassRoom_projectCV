@@ -22,19 +22,23 @@ body
 }
 .colonne h3
 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #f7ca00;
     background-color: #424242;
-    text-align: center;
+    height: 40px;
 }
 .content
 {
     margin-left:100px;
-    width: 800px;
+    width: 779px;
     float: right;
 }
 .content h3
 {
-    text-decoration: underline;
+    border-bottom:1px solid #F7CA00;
+    height: 40px;
 }
 .row
 {
@@ -54,6 +58,14 @@ h2
 {
     font-size: 1.5em;
 }
+i.fas
+{
+    font-size: 30px; 
+    color: #F7CA00; 
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
 
 
 /* bloc identite */
@@ -62,19 +74,18 @@ h2
 {
 	display: flex;
 	align-items: center;
-	width: 779px;
 	height: 200px;
 }
 #prenom
 {
 	color: #F7CA00;
 	text-transform: uppercase;
-	font-size: 2em;
+	font-size: 3em;
 }
 #nom
 {
 text-transform: uppercase;
-font-size: 2em;
+font-size: 3em;
 color: black;			
 }
 
@@ -85,9 +96,16 @@ color: black;
     display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 200px;
+    height: 200px;
 }
 #photo img
 {
-    width: 180px;
+    width: 160px;
 }
+
+/* bloc formation */
+/* bloc contact */
+/* bloc experiences */
+/* bloc apropos */
+/* bloc competences */
+/* bloc loisirs */
