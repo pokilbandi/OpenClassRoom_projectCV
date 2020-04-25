@@ -1,4 +1,17 @@
 
+/*! Media Querries */
+
+@media (min-width: 480px) and (max-width: 780px)
+{
+
+}
+
+@media (min-width: 781px) and (max-width: 979px)
+{
+
+}
+
+
 /*! éléments principaux */
 
 
@@ -12,6 +25,7 @@ body
     width: 1100px;
     height: auto;
     margin: auto;
+    box-shadow: 8px 8px 12px #aaa;
 }
 .colonne
 {
@@ -119,12 +133,10 @@ color: black;
 .sec-droite
 {
     float: right;
+    margin-right: 150px;
 }
 
-.lieu
-{
-    ;
-}
+
 /* ! bloc contact */
 
 
