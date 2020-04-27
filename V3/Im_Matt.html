@@ -4,74 +4,114 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://kit.fontawesome.com/63f66c93ed.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="Im_Matt.css" />
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="https://kit.fontawesome.com/63f66c93ed.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
         <title>I'm Matt</title>
     </head>
     <body>
         <div id="bloc_page">
-            <div class="row">
-                <section style="flex-grow: 4"; class="colonne"; id="photo">                                 <!--photo -->
-							<img src="matthieu photo ronde.svg" alt="photo"/>
-                </section>
-                <section style="flex-grow: 8"; class="content"; id="identite">                              <!-- identite -->
-							<ul><li><span id="prenom">Matthieu</span> <span id="nom">Cognée</span></li>
-								<li><h2>Développeur web freelance</h2></li>
-							</ul> 
-                </section>
+            <div class="container">
+                <div class="row">
+                    <section class="col-lg-4 colonne"; id="photo">                                 <!--photo -->
+                        <img src="matthieu photo ronde.svg" alt="photo"/>
+                    </section>
+                    <section class="col-lg-8 content"; id="identite">                              <!-- identite -->
+                        <ul><li><span id="prenom">Matthieu</span> <span id="nom">Cognée</span></li>
+                            <li><h2><span id="title_line">Dével</span>oppeur web freelance</h2></li>
+                        </ul> 
+                    </section>
+                </div>
             </div>
-            <div class="row">
-                <section style="flex-grow: 4"; class="colonne"; id="contact">                               <!-- contact -->
-                    <h3>contact</h3>
-                        <p><b>Téléphone</b></br>0619231489</p>
-                        <p><b>Email</b></br>matthieu.cognee@gmail.com</p>
-                        <i class="fab fa-twitter-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-facebook-square"></i> 
-                </section>
-                <section style="flex-grow: 8"; class="content"; id="formation">                             <!-- formation -->
-                    <i class="fas fa-graduation-cap"></i><h3>Formation</h3>
-                    <div class="sec-gauche">
-                        <p>2020<br/><b>Remote</b></p>
-                        <p>2006-2007<br/><b>St Malo</b></p>
-                    </div>
-                    <div class="sec-droite">
-                        <p><b>OpenClassRooms</b><br/>Web Developpeur Junior</p>
-                        <p><b>Ecole de Gestion et Commerce de Bretagne</b><br/>Bachelor marketing, comptabilité</p>
-                    </div>
-                </section>
+            <div class="container">
+                <div class="row">
+                    <section class="col-lg-4 colonne"; id="contact">                               <!-- contact -->
+                        <h3>contact</h3>
+                            <p><b>Téléphone</b></br>0619231489</p>
+                            <p><b>Email</b></br>matthieu.cognee@gmail.com</p>
+                            <i class="fab fa-twitter-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-facebook-square"></i> 
+                    </section>
+                    <section class="col-lg-8 content"; id="formation">                             <!-- formation -->
+                        <i class="fas fa-graduation-cap"></i><h3>Formation</h3>
+                        <div class="sec-gauche">
+                                <br>
+                                <img src="icone_entoure.svg"><p>2020<br/><b>Remote</b></p></img>
+                                <br>
+                                <img src="icone_dot.svg"><p>2006-2007<br/><b>St Malo</b></p></img>
+                        </div>
+                        <div class="sec-droite">
+                            <br>
+                            <p><b>OpenClassRooms</b><br/>Web Developpeur Junior<br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi ad.</p>
+                            <br>
+                            <p><b>Ecole de Gestion et Commerce de Bretagne</b><br/>Bachelor marketing, comptabilité</p>
+                        </div>
+                    </section>
+                </div>
             </div>
-            <div class="row">
-                <section style="flex-grow: 4"; class="colonne"; id="apropos">                               <!-- a propos -->
-                            <h3>à propos de moi</h3>
+            <div class="container">
+                <div class="row">
+                    <section class="col-lg-4 colonne"; id="apropos">                               <!-- a propos -->
+                        <h3>à propos de moi</h3>
                             <p>du blabla qui parle de moi</p>
-                </section>
-                <section style="flex-grow: 8"; class="content"; id="experience">                            <!-- experience -->
-						<i class="fas fa-briefcase"></i><h3>Mon Expérience</h3>
-							<ul><li><span class="metier">Directeur de salle</span> - MSM 1888, Mont-Saint-Michel</li>
-								<li><span class="metier">Manager Séminaires</span> - Millbrook Resort Country Club, Queenstown, Nouvelle Zélande</li>
-								<li><span class="metier">Chef de Rang</span> - MSM 1888, Mont-Saint-Michel</li>
-								<li><span class="metier">Chef de Rang</span> - Odalys, Tignes</li>
-								<li><span class="metier">Chef de Rang</span> - La Tête Noir, Fougères</li>
-								<li><span class="metier">Barman</span> - Nautilus, Port Douglas , Australie</li>
-                                <li><span class="metier">Responsable bar</span> - MSM 1888, Mont-Saint-Michel</li>
-                            </ul>
-                </section>                             
+                    </section>
+                    <section class="col-lg-8 content"; id="experiences">                            <!-- experience -->
+                        <i class="fas fa-briefcase"></i><h3>Mon Expérience</h3>
+                            <div class="sec-gauche">
+                                <br>
+                                <img src="icone_entoure.svg"><p>2016-2019<br/><b>Mont-Saint-Michel</b></p></img>
+                                <br>
+                                <img src="icone_dot.svg"><p>2015-2016<br/><b>Queenstown, Nouvelle Zélande</b></p></img>
+                            </div>
+                            <div class="sec-droite">
+                                <br>
+                                <p><b>Groupe "La mere poulard"</b><br/>Directeur de salle<br/>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                <br>
+                                <p><b>Millbrook Resort Country Club</b><br/>Manager Séminaires</p>
+                            </div>
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="collapsed card-link" data-toggle="collapse" href="#collapseOne">
+                                            10 années d'expériences en hôtellerie, restaurantion
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul><li><b>Chef de Rang</b> - MSM 1888, Mont-Saint-Michel</li>
+                                                <li><b>Chef de Rang</b> - Odalys, Tignes</li>
+                                                <li><b>Chef de Rang</b> - La Tête Noir, Fougères</li>
+                                                <li><b>Barman</b> - Nautilus, Port Douglas , Australie</li>
+                                                <li><b>Responsable bar</b> - MSM 1888, Mont-Saint-Michel</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>                             
+                </div>
             </div>
-            <div class="row">
-                <footer style="flex-grow: 4"; class="colonne"; id="loisirs">                                <!-- loisirs -->
-                                <h3>loisirs</h3>
-                                <i class="fas fa-plane-departure"></i> <i class="fas fa-laptop-house"></i>
-                                <i class="fab fa-xbox"></i> <i class="fas fa-seedling"></i>
-                </footer>                                   
-                <section style="flex-grow: 8"; class="content"; id="competences">                                     <!-- competences -->
-                            <i class="fas fa-pencil-alt"></i><h3>Mes Compétences</h3>
-                                    <ul><li>Organisation et gestion quotidienne des équipes</li>
-                                        <li>Organisation et planifications d'événements, séminaires</li>
-                                        <li>Serveur en salle , prise de commande, accueil clients</li>
-                                        <li>Organisation du Plan de salle, accueil, bar</li>
-                                        <li>Barman , accueil, gestion des stocks</li>
-                                        <li>Elaboration de cocktails, gestion de stock.</li></ul>
-                </section>                           
+            <div class="container">
+                <div class="row">
+                    <footer class="col-lg-4 colonne"; id="loisirs">                                <!-- loisirs -->
+                        <h3>loisirs</h3>
+                        <i class="fas fa-plane-departure"></i> <i class="fas fa-laptop-house"></i>
+                        <i class="fab fa-xbox"></i> <i class="fas fa-seedling"></i>
+                    </footer>                                   
+                    <section class="col-lg-8 content"; id="competences">                                     <!-- competences -->
+                        <i class="fas fa-pencil-alt"></i><h3>Mes Compétences</h3>
+                            <div class="contenu_competences">
+                                <img src="icone_entoure.svg"><p>Organisation et gestion quotidienne des équipes</p>
+                                <img src="icone_entoure.svg"><p>Organisation et planifications d'événements, séminaires</p>
+                                <img src="icone_entoure.svg"><p>Serveur en salle , prise de commande, accueil clients</p>
+                                <img src="icone_entoure.svg"><p>Organisation du Plan de salle, accueil, bar</p>
+                                <img src="icone_entoure.svg"><p>Barman , accueil, gestion des stocks</p>
+                                <img src="icone_entoure.svg"><p>Elaboration de cocktails, gestion de stock.</p>
+                            </div>
+                    </section>                           
+                </div>
             </div>
         </div>
     </body>
