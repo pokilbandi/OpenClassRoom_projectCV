@@ -1,0 +1,235 @@
+
+/*! Media Querries */
+
+@media (min-width: 480px) and (max-width: 780px)
+{
+
+}
+
+@media (min-width: 781px) and (max-width: 979px)
+{
+
+}
+
+
+/*! éléments principaux */
+
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+}
+#bloc_page
+{
+    width: 1100px;
+    height: auto;
+    margin: auto;
+    box-shadow: 8px 8px 12px #aaa;
+}
+.colonne
+{
+    background-color:#F7CA00;
+    width:321px;
+    height: auto;
+    float: left;
+}
+.colonne h3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f7ca00;
+    background-color: #424242;
+    height: 40px;
+}
+.content
+{
+    margin-left:100px;
+    width: 779px;
+    float: right;
+}
+.content h3
+{
+    border-bottom:1px solid #F7CA00;
+    height: 40px;
+}
+.row
+{
+    display: flex;
+    flex-direction: row;
+}
+ul
+{
+    list-style-type: none;
+}
+h3
+{
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+h2
+{
+    font-size: 1.5em;
+}
+
+
+/*! bloc identite */
+
+
+#identite    
+{
+	display: flex;
+	align-items: center;
+	height: 200px;
+}
+#prenom
+{
+	color: #F7CA00;
+	text-transform: uppercase;
+	font-size: 3em;
+}
+#nom
+{
+text-transform: uppercase;
+font-size: 3em;
+color: black;			
+}
+
+
+/*! bloc photo */
+
+
+#photo
+{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 200px;
+}
+#photo img
+{
+    width: 160px;
+}
+
+
+/*! bloc formation */
+
+
+.fa-graduation-cap
+{
+    font-size: 30px; 
+    color: #F7CA00; 
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.sec-gauche
+{
+    float: left;
+}
+
+.sec-droite
+{
+    float: right;
+    margin-right: 150px;
+}
+
+
+/* ! bloc contact */
+
+
+.fa-twitter-square          /* TODO ajouter url sur icones */
+{
+    font-size: 50px;
+    color: #424242;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.fa-linkedin
+{
+    font-size: 50px;
+    color: #424242;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+.fa-facebook-square
+{
+    font-size: 50px;
+    color: #424242;
+    margin-left: 37px;
+    margin-top: 40px;
+}
+
+#contact p
+{
+    margin-left: 40px;
+}
+
+
+/*! bloc experiences */
+
+
+.fa-briefcase
+{
+    font-size: 30px; 
+    color: #F7CA00; 
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+
+/*! bloc apropos */
+
+
+/*! bloc competences */
+
+
+.fa-pencil-alt
+{
+    font-size: 30px; 
+    color: #F7CA00; 
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+
+/*! bloc loisirs */
+
+
+.fa-plane-departure
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fa-laptop-house
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fa-xbox
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.fa-seedling
+{
+    font-size: 35px;
+    color: #424242;
+    margin-top: 30px;
+    margin-left: 25px;
+}
