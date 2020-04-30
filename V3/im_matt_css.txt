@@ -2,23 +2,15 @@
 
 /*! éléments principaux */
 
-
-.container
-{
-    display: flex;
-    flex-direction: row;
-}
 .row
 {
     display: flex;
     flex-direction: column;
-    border-style: solid
 }
-.body
+body
 {
     font-family: Arial, Helvetica, sans-serif;
-    color: #424242;
-    width: 1100px;
+    color: #424242
 }
 .colonne_gauche
 {
@@ -32,6 +24,8 @@
     align-items: center;
     color: #f7ca00;
     background-color: #424242;
+    height: 40px;
+    margin-bottom: 40px;
 }
 .colonne_droite h3
 {
@@ -58,7 +52,6 @@ h2
 {
 	display: flex;
     align-items: center;
-    height: 250px;
 }
 #prenom
 {
@@ -89,12 +82,12 @@ color: black;
     display: flex;
 	justify-content: center;
     align-items: center;
-    height: 250px;
-    background-color: #F7CA00;
+    height: 300px;
 }
 #photo img
 {
     width: 210px;
+    box-shadow: black; 
 }
 
 
@@ -106,8 +99,8 @@ color: black;
     font-size: 40px; 
     color: #F7CA00; 
     float: left;
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .sec-gauche
@@ -117,7 +110,7 @@ color: black;
 
 .sec-gauche p
 {
-    padding-left: 50px;
+    margin-left: 50px;
 }
 
 .sec-droite
@@ -127,8 +120,8 @@ color: black;
 #formation img
 {
     width: 15px;
-    padding-top: 10px;
-    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     float: left;
 }
 
@@ -139,32 +132,32 @@ color: black;
 {
     font-size: 50px;
     color: #424242;
-    padding-left: 65px;
-    padding-top: 37px;
-    padding-bottom: 37px;
+    margin-left: 65px;
+    margin-top: 37px;
+    margin-bottom: 37px;
 }
 
 .fa-linkedin
 {
     font-size: 50px;
     color: #424242;
-    padding-left: 37px;
-    padding-top: 37px;
-    padding-bottom: 37px;
+    margin-left: 37px;
+    margin-top: 37px;
+    margin-bottom: 37px;
 }
 
 .fa-facebook-square
 {
     font-size: 50px;
     color: #424242;
-    padding-left: 37px;
-    padding-top: 37px;
-    padding-bottom: 37px;
+    margin-left: 37px;
+    margin-top: 37px;
+    margin-bottom: 37px;
 }
 
 #contact p
 {
-    padding-left: 35px;
+    margin-left: 35px;
 }
 
 
@@ -175,7 +168,6 @@ color: black;
 {
     width: 600px;
     margin-top: 230px;
-    margin-bottom: 50px;
 }
 .card ul
 {
@@ -184,8 +176,8 @@ color: black;
 #experiences img
 {
     width: 15px;
-    padding-top: 10px;
-    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     float: left;
 }
 
@@ -194,8 +186,8 @@ color: black;
     font-size: 40px; 
     color: #F7CA00; 
     float: left;
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 
@@ -212,14 +204,14 @@ color: black;
 
 .contenu_competences
 {
-    padding-top: 50px;
+    margin-top: 50px;
 }
 #competences img
 {
     width: 15px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-right: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
     float: left;
 }
 .fa-pencil-alt
@@ -227,8 +219,8 @@ color: black;
     font-size: 40px; 
     color: #F7CA00; 
     float: left;
-    padding-right: 30px;
-    padding-left: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 
@@ -239,31 +231,31 @@ color: black;
 {
     font-size: 50px;
     color: #424242;
-    padding-top: 60px;
-    padding-left: 70px;
+    margin-top: 60px;
+    margin-left: 70px;
 }
 
 .fa-laptop-house
 {
     font-size: 50px;
     color: #424242;
-    padding-top: 60px;
-    padding-left: 70px;
+    margin-top: 60px;
+    margin-left: 70px;
 }
 
 .fa-xbox
 {
     font-size: 50px;
     color: #424242;
-    padding-top: 60px;
-    padding-left: 80px;
+    margin-top: 60px;
+    margin-left: 80px;
 }
 
 .fa-seedling
 {
     font-size: 50px;
     color: #424242;
-    padding-top: 60px;
-    padding-left: 80px;
-    padding-bottom: 100px;
+    margin-top: 60px;
+    margin-left: 80px;
+    margin-bottom: 100px;
 }
