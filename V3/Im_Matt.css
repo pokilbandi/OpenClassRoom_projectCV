@@ -3,25 +3,17 @@
 /*! Media Queries */
 
 
-@media (min-width: 576px) and (max-width: 767.98px) 
-{
-    .body
-    {
-        background-color: green;
-    }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
+/*/ Extra small devices (portrait phones, less than 768px) */
+@media (max-width: 767.98px) {}
+/*/ Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+/*/ Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+/*/ Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
 
 
-/*! éléments principaux */
+/*! éléments principaux ---------------------------------------------------------------------------------- */
 
 
 .body
@@ -29,14 +21,13 @@
     font-family: Helvetica, Arial, sans-serif;
     color: #616161;
 }
-.colonne_gauche h3
-{
 
+{
     color: #f7ca00;
     background-color: #424242;
     height: 40px;
 }
-.colonne_droite h3
+h3
 {
     border-bottom: 2px solid #F7CA00;
     padding-bottom: 20px;
@@ -58,7 +49,7 @@ h2
 }
 
 
-/*! bloc identite */
+/*! bloc identite ---------------------------------------------------------------------------------- */
 
 
 #identite    
@@ -66,6 +57,15 @@ h2
     display: flex;
     align-items: center;
 }
+    @media (max-width: 767.68px)
+    {
+        #identite
+        {
+            align-items: left;
+            margin-top: 30px;
+        }
+        
+    }
 #prenom
 {
 	color: #F7CA00;
@@ -81,13 +81,31 @@ color: black;
 #title_line
 {
     border-bottom:2px solid #F7CA00;
+}    
+    @media (max-width: 767.98px) 
+    {
+        #title_line
+        {
+            border-bottom-style: hidden;
+        }
+    }  
+#title_lineB
+{
+    border-bottom: 2px solid #F7CA00;
 }
+    @media (min-width: 767.98px) 
+    {
+        #title_lineB
+        {
+            border-bottom-style: hidden;
+        }
+    }    
 #identite ul
 {
     list-style-type: none;
 }
 
-/*! bloc photo */
+/*! bloc photo ---------------------------------------------------------------------------------- */
 
 
 #photo
@@ -106,12 +124,15 @@ color: black;
 }
 
 
-/*! bloc formation */
+/*! bloc formation ---------------------------------------------------------------------------------- */
 
 
-#formation
+@media (max-width: 767.98px) 
 {
-    margin-top: 3em;
+    #formation
+    {
+        margin-top: 4em;
+    }
 }
 .fa-graduation-cap
 {
@@ -121,15 +142,18 @@ color: black;
     padding-right: 30px;
     padding-left: 30px;
 }
-.sec-gauche
-{
-    float: left;
-}
-.sec-gauche p
+    @media (max-width: 767.68px)
+    {
+        .fa-graduation-cap
+        {
+            padding-left: 10px;
+        }
+    }
+
+.sec-gauche p, .sec-droite p
 {
     padding-left: 50px;
 }
-
 #formation img
 {
     width: 25px;
@@ -142,7 +166,8 @@ color: black;
     color: #616161
 }
 
-/* ! bloc contact */
+/* ! bloc contact---------------------------------------------------------------------------------- */
+
 
 .icone_contact
 {
@@ -189,7 +214,7 @@ color: black;
 }
 
 
-/*! bloc experiences */
+/*! bloc experiences ---------------------------------------------------------------------------------- */
 
 #experiences
 {
@@ -218,6 +243,13 @@ color: black;
     padding-right: 30px;
     padding-left: 30px;
 }
+    @media (max-width: 767.68px)
+    {
+        .fa-briefcase
+        {
+            padding-left: 10px;
+        }
+    }
 #accordion .panel 
 {
     border-radius: 0;
@@ -256,7 +288,7 @@ color: black;
 #accordion .panel-heading a:not(.collapsed) 
 {
     color: #424242;
-    background-color: #F7CA00;
+    background-color: white;
     transition: all 0.2s ease-in;
 }
 #accordion .panel-heading .accordion-toggle::before 
@@ -287,7 +319,7 @@ color: black;
     margin-bottom: 50px;
 }
 
-/*! bloc apropos */
+/*! bloc apropos ---------------------------------------------------------------------------------- */
 
 
 #apropos h3
@@ -308,7 +340,7 @@ color: black;
     padding-top: 30px;
 }
 
-/*! bloc competences */
+/*! bloc competences ---------------------------------------------------------------------------------- */
 
 
 #competences img
@@ -332,9 +364,15 @@ color: black;
     padding-right: 30px;
     padding-left: 30px;
 }
+    @media (max-width: 767.68px)
+    {
+        .fa-pencil-alt
+        {
+            padding-left: 10px;
+        }
+    }
 
-
-/*! bloc loisirs */
+/*! bloc loisirs ---------------------------------------------------------------------------------- */
 
 
 #loisirs h3
