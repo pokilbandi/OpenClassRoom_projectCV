@@ -1,6 +1,27 @@
 
-/*! éléments principaux */
 
+/*! Media Queries */
+
+
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    .body
+    {
+        background-color: green;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+/*! éléments principaux */
 
 
 .body
@@ -42,6 +63,8 @@ h2
 
 #identite    
 {
+    display: flex;
+    align-items: center;
 }
 #prenom
 {
@@ -69,9 +92,11 @@ color: black;
 
 #photo
 {
-
-    
     background-color: #F7CA00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 270px;
 }
 #photo img
 {
@@ -84,6 +109,10 @@ color: black;
 /*! bloc formation */
 
 
+#formation
+{
+    margin-top: 3em;
+}
 .fa-graduation-cap
 {
     font-size: 40px; 
@@ -115,7 +144,17 @@ color: black;
 
 /* ! bloc contact */
 
-
+.icone_contact
+{
+    justify-content: center;
+}
+#contact h3
+{
+    color: #f7ca00;
+    background-color: #424242;
+    height: 40px;
+    text-align: center;
+}
 .fa-twitter-square          /* TODO ajouter url sur icones */
 {
     font-size: 50px;
@@ -251,9 +290,17 @@ color: black;
 /*! bloc apropos */
 
 
+#apropos h3
+{
+    color: #f7ca00;
+    background-color: #424242;
+    height: 40px;
+    text-align: center;
+}
 #apropos
 {
     height: 500px;
+    
 }
 #apropos p
 {
@@ -290,6 +337,13 @@ color: black;
 /*! bloc loisirs */
 
 
+#loisirs h3
+{
+    color: #f7ca00;
+    background-color: #424242;
+    height: 40px;
+    text-align: center;
+}
 .fa-plane-departure
 {
     font-size: 50px;
