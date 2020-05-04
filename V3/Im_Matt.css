@@ -1,27 +1,35 @@
 
-
-/*! Media Queries */
-
-
-/*/ Extra small devices (portrait phones, less than 768px) */
-@media (max-width: 767.98px) {}
-/*/ Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {}
-/*/ Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {}
-/*/ Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
-
-
 /*! éléments principaux ---------------------------------------------------------------------------------- */
 
-
-.body
+@media (min-width: 850px)
 {
+    #bloc_page
+    {
+        border: solid 1px #bbb9b9;
+        box-shadow: 15px 20px 10px #3d3d3d;
+        width: fit-content;
+        margin: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 768px)
+{
+    #bloc_page
+    {
+        width: ;
+    }
+}
+body
+{
+    background-image: url(produit-bois.jpg);
     font-family: Helvetica, Arial, sans-serif;
     color: #616161;
 }
-
+.row
+{
+    background-color: white;
+}
 {
     color: #f7ca00;
     background-color: #424242;
@@ -178,7 +186,10 @@ color: black;
 
 .icone_contact
 {
+    width: 100%;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 #contact h3
 {
@@ -187,25 +198,15 @@ color: black;
     height: 40px;
     text-align: center;
 }
-.fa-twitter-square          /* TODO ajouter url sur icones */
+.fa-twitter-square          
 {
     font-size: 50px;
     color: #424242;
-    padding-left: 65px;
     padding-top: 37px;
     padding-bottom: 37px;
 }
 
 .fa-linkedin
-{
-    font-size: 50px;
-    color: #424242;
-    padding-left: 37px;
-    padding-top: 37px;
-    padding-bottom: 37px;
-}
-
-.fa-facebook-square
 {
     font-size: 50px;
     color: #424242;
