@@ -13,16 +13,9 @@
         margin-bottom: 50px;
     }
 }
-@media (min-width: 768px)
-{
-    #bloc_page
-    {
-        width: ;
-    }
-}
 body
 {
-    background-image: url(produit-bois.jpg);
+    background-image: url(images/produit-bois.jpg);
     font-family: Helvetica, Arial, sans-serif;
     color: #616161;
 }
