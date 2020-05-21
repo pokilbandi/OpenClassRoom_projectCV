@@ -1,5 +1,7 @@
 
+
 /*! éléments principaux ---------------------------------------------------------------------------------- */
+
 
 @media (min-width: 850px)
 {
@@ -16,6 +18,7 @@
 body
 {
     background-image: url(images/produit-bois.jpg);
+    background-size: cover;
     font-family: Helvetica, Arial, sans-serif;
     color: #616161;
 }
@@ -45,6 +48,8 @@ td
     vertical-align: top;
     height: 100px;
 }
+
+
 /*! bloc identite ---------------------------------------------------------------------------------- */
 
 
@@ -100,6 +105,7 @@ color: black;
 {
     list-style-type: none;
 }
+
 
 /*! bloc photo ---------------------------------------------------------------------------------- */
 
@@ -168,6 +174,7 @@ color: black;
 {
     color: #616161
 }
+
 
 /* ! bloc contact---------------------------------------------------------------------------------- */
 
