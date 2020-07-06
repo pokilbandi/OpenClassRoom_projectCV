@@ -1,4 +1,5 @@
-# OpenClassRoom_Project
- local repo for OCR ex
+# Formation_OpenClassRoom
 
-CV Responsif : https://pokilbandi.github.io/
+Projet:
+
+CV Responsif : https://pokilbandi.github.io/Projet2_CV/
