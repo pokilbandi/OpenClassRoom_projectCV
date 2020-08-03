@@ -9,5 +9,8 @@ CV Responsif : https://pokilbandi.github.io/Projet2_CV/<br>
 
 Autres projets:
 
-OhMyFood-V1 : https://pokilbandi.github.io/Projet3_OhMyFood-V1/<br>
-OhMyFood-V2 : https://pokilbandi.github.io/Projet3_OhMyFood-V2/
+* OhMyFood-V1 : https://pokilbandi.github.io/Projet3_OhMyFood-V1/<br>
+  OhMyFood-V2 : https://pokilbandi.github.io/Projet3_OhMyFood-V2/
+
+* Analyse SEO >  https://pokilbandi.github.io/Projet4_LaChouetteAgenceOriginal/
+		>> https://pokilbandi.github.io/Projet4_LaChouetteAgence/
