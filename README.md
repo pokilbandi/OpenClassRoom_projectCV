@@ -2,7 +2,7 @@
 
 Projet:
 
-CV Responsif : https://pokilbandi.github.io/Projet2_CV/<br>
+* CV Responsif : https://pokilbandi.github.io/Projet2_CV/<br>
 
 
 
